@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4052215529613871917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 156ba2a5f4fc7bf47b493b7cbf9c7f19, type: 3}
+  m_Name: Trunk
+  m_EditorClassIdentifier: 
+  seed: 515
+  id: 575589817
+  parent: {fileID: 0}
+  chiildren: []
+  enabled: 1
+  showDeleteButton: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 37
+  deleteRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  radiusMultiplier: 0.03
+  radius:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.6147541
+      outSlope: -0.6147541
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.6530615
+    - serializedVersion: 3
+      time: 0.38919252
+      value: 0.7959176
+      inSlope: -0.5742733
+      outSlope: -0.5742733
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.20850815
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.621769
+      value: 0.6667968
+      inSlope: -0.4395302
+      outSlope: -0.4395302
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.74182034
+    - serializedVersion: 3
+      time: 0.97998375
+      value: 0.53750306
+      inSlope: -0.40762427
+      outSlope: -0.40762427
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.6420276
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0041809
+      value: 0.012496948
+      inSlope: -1.0320271
+      outSlope: -1.0320271
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.45741343
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  length: 0.33
+  number: 1
+  randomness: 0.058
+  originAttraction: 0
+  resolution: 15.24
+  rootShape:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -2
+      outSlope: -2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.30484664
+      value: 0.28019983
+      inSlope: -1.3342859
+      outSlope: -1.3342859
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.49428123
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  rootRadius: 0
+  rootInnerRadius: 0
+  rootHeight: 0.01
+  rootResolution: 1
+  flareNumber: 0
+  spinAmount: 2.63
+  displacementStrength: 1.7
+  displacementSize: -0.08
+  heightOffset: 0.1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58c179839cc7e1e4bb7fdb33c0866483, type: 3}
+  m_Name: Ground-Cover-1-F
+  m_EditorClassIdentifier: 
+  treeFunctions:
+  - {fileID: -4052215529613871917}
